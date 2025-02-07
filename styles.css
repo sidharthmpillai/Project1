@@ -149,7 +149,7 @@ nav ul li a {
 .circuit-animation {
     position: absolute;
     inset: 0;
-    background: url('media/jeremy-thomas-E0AHdsENmDg-unsplash.jpg') center/cover;
+    background: url('https://raw.githubusercontent.com/sidharthmpillai/Project1/refs/heads/main/jeremy-thomas-E0AHdsENmDg-unsplash.jpg') center/cover;
     opacity: 0.2;
     animation: moveCircuits 10s infinite linear;
 }
@@ -388,7 +388,7 @@ button:hover{
 
 .text-container::before {
     content: "";
-    background: url('media/handshake-two-business-partners.jpg') no-repeat center center/cover;
+    background: url('https://raw.githubusercontent.com/sidharthmpillai/Project1/refs/heads/main/handshake-two-business-partners.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
