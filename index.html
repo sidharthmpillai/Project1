@@ -92,10 +92,12 @@
             </p>
         </div>
         <div class="form-container">
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="179484cb-fa01-4ff9-be0d-599f23813883">
                 <input type="text" name="name" placeholder="Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" placeholder="Save your Thoughts" required></textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                 <button type="submit">SUBMIT</button>
             </form>
         </div>
