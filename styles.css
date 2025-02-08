@@ -68,9 +68,10 @@ body {
 }
 
 .header img{
-    height: 170px;
+    height: 130px;
     width: auto;
     object-fit: cover;
+    margin-bottom: 40px;
 }
 
 .mymsg{
@@ -472,10 +473,14 @@ footer {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 828px) {
-.header {
+    .header {
         justify-content: center;
         font-size: 9px;
         padding-inline: 0px;
+    }
+
+    .header img{
+        margin-right: 80px;
     }
 
     nav ul{
@@ -487,14 +492,8 @@ footer {
     nav ul li a{
         font-size: 15px;
     }
-    .header img {
-        width: 115px;  /* Adjust size as needed */
-        height: 110px;
-        margin-right:200px;  /* Remove any margin */
-        margin-bottom: 20px;
-        padding: 0;  /* Ensure no padding is pushing it away */
-    }
     
+
     .hero-title span {
         font-size: 4rem;
     }
@@ -554,7 +553,20 @@ footer {
         width: 120px;
         height: 120px;
         object-fit: cover;
+        margin-right: 100px;
     }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        top: -10px;  /* Adjusts upward positioning for smaller screens */
+        margin-bottom: 20px;
+    }
+
     .hero-title span {
         font-size: 3.5rem;
     }
@@ -660,16 +672,21 @@ footer {
     }
 
     .nav{
-        position: fixed;
+      
         text-align: center;
     }
 
     .nav-image {
         height: 50px;
     }
+   
+    nav ul li a {
+        font-size: 13px;
+        top: -10px;  /* Further fine-tune positioning for very small screens */
+    }
 
     .hero-title span {
-        font-size: 3rem;
+        font-size: 2.8rem;
         }
 
     .hero p {
@@ -793,5 +810,6 @@ footer {
         border-radius: 5px;
     }
     }
+
 
 
