@@ -472,7 +472,7 @@ footer {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 828px) {
-    .header {
+.header {
         justify-content: center;
         font-size: 9px;
         padding-inline: 0px;
@@ -487,8 +487,14 @@ footer {
     nav ul li a{
         font-size: 15px;
     }
+    .header img {
+        width: 115px;  /* Adjust size as needed */
+        height: 110px;
+        margin-right:200px;  /* Remove any margin */
+        margin-bottom: 20px;
+        padding: 0;  /* Ensure no padding is pushing it away */
+    }
     
-
     .hero-title span {
         font-size: 4rem;
     }
